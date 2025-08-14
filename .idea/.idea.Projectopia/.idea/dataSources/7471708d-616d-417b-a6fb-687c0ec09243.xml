@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>870</IntrospectionStateNumber>
+      <IntrospectionStateNumber>879</IntrospectionStateNumber>
       <ServerVersion>17.4</ServerVersion>
       <StartupTime>1755113006</StartupTime>
       <TimeZones>true ACDT
@@ -822,7 +822,7 @@ false Zulu
 14650||10|C|G
 14650||-9223372036854775808|U|G
 14650||10|U|G</Grants>
-      <IntrospectionStateNumber>867</IntrospectionStateNumber>
+      <IntrospectionStateNumber>877</IntrospectionStateNumber>
       <ObjectId>5</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -836,8 +836,8 @@ false Zulu
 14650||10|C|G
 14650||-9223372036854775808|U|G
 14650||10|U|G</Grants>
-      <IntrospectionStateNumber>870</IntrospectionStateNumber>
-      <ObjectId>17305</ObjectId>
+      <IntrospectionStateNumber>879</IntrospectionStateNumber>
+      <ObjectId>17451</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
     <database id="7" parent="1" name="simpleLibrary">
@@ -4262,8 +4262,8 @@ false Zulu
     <schema id="269" parent="5" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>867</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2025-08-14.15:04:00</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>877</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2025-08-14.15:28:36</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>532</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
@@ -7619,343 +7619,329 @@ false Zulu
     <schema id="513" parent="6" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>870</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2025-08-14.15:04:09</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>879</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2025-08-14.15:31:21</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>532</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="514" parent="513" name="AspNetRoleClaims_Id_seq">
-      <ObjectId>17341</ObjectId>
+      <ObjectId>17479</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="515" parent="513" name="AspNetUserClaims_Id_seq">
-      <ObjectId>17354</ObjectId>
+      <ObjectId>17492</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="516" parent="513" name="ProjectStudents_Id_seq">
-      <ObjectId>17408</ObjectId>
+      <ObjectId>17546</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="517" parent="513" name="Projects_Id_seq">
-      <ObjectId>17325</ObjectId>
+      <ObjectId>17471</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="518" parent="513" name="SupervisorProjects_Id_seq">
-      <ObjectId>17424</ObjectId>
+      <ObjectId>17564</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <sequence id="519" parent="513" name="User_Id_seq">
-      <ObjectId>17333</ObjectId>
-      <SequenceIdentity>1</SequenceIdentity>
-      <StartValue>1</StartValue>
-      <StateNumber>865</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <OwnerName>postgres</OwnerName>
-    </sequence>
-    <table id="520" parent="513" name="AspNetRoleClaims">
-      <ObjectId>17342</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="519" parent="513" name="AspNetRoleClaims">
+      <ObjectId>17480</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="521" parent="513" name="AspNetRoles">
-      <ObjectId>17311</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="520" parent="513" name="AspNetRoles">
+      <ObjectId>17457</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="522" parent="513" name="AspNetUserClaims">
-      <ObjectId>17355</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="521" parent="513" name="AspNetUserClaims">
+      <ObjectId>17493</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="523" parent="513" name="AspNetUserLogins">
-      <ObjectId>17367</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="522" parent="513" name="AspNetUserLogins">
+      <ObjectId>17505</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="524" parent="513" name="AspNetUserRoles">
-      <ObjectId>17379</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="523" parent="513" name="AspNetUserRoles">
+      <ObjectId>17517</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="525" parent="513" name="AspNetUserTokens">
-      <ObjectId>17396</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="524" parent="513" name="AspNetUserTokens">
+      <ObjectId>17534</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="526" parent="513" name="AspNetUsers">
-      <ObjectId>17318</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="525" parent="513" name="AspNetUsers">
+      <ObjectId>17464</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="527" parent="513" name="ProjectStudents">
-      <ObjectId>17409</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="526" parent="513" name="ProjectStudents">
+      <ObjectId>17547</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="528" parent="513" name="Projects">
-      <ObjectId>17326</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="527" parent="513" name="Projects">
+      <ObjectId>17472</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="529" parent="513" name="SupervisorProjects">
-      <ObjectId>17425</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="528" parent="513" name="SupervisorProjects">
+      <ObjectId>17565</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="530" parent="513" name="User">
-      <ObjectId>17334</ObjectId>
-      <StateNumber>865</StateNumber>
+    <table id="529" parent="513" name="__EFMigrationsHistory">
+      <ObjectId>17452</ObjectId>
+      <StateNumber>875</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="531" parent="513" name="__EFMigrationsHistory">
-      <ObjectId>17306</ObjectId>
-      <StateNumber>864</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>postgres</OwnerName>
-    </table>
-    <column id="532" parent="520" name="Id">
+    <column id="530" parent="519" name="Id">
       <IdentityKind>by-default</IdentityKind>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>integer|0s</StoredType>
-      <SequenceId>17341</SequenceId>
+      <SequenceId>17479</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="533" parent="520" name="RoleId">
+    <column id="531" parent="519" name="RoleId">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="534" parent="520" name="ClaimType">
+    <column id="532" parent="519" name="ClaimType">
       <Position>3</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="535" parent="520" name="ClaimValue">
+    <column id="533" parent="519" name="ClaimValue">
       <Position>4</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <foreign-key id="536" parent="520" name="FK_AspNetRoleClaims_AspNetRoles_RoleId">
+    <foreign-key id="534" parent="519" name="FK_AspNetRoleClaims_AspNetRoles_RoleId">
       <ColNames>RoleId</ColNames>
-      <ObjectId>17349</ObjectId>
+      <ObjectId>17487</ObjectId>
       <OnDelete>cascade</OnDelete>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17311</RefTableId>
+      <RefTableId>17457</RefTableId>
     </foreign-key>
-    <index id="537" parent="520" name="PK_AspNetRoleClaims">
+    <index id="535" parent="519" name="PK_AspNetRoleClaims">
       <ColNames>Id</ColNames>
-      <ObjectId>17347</ObjectId>
+      <ObjectId>17485</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="538" parent="520" name="IX_AspNetRoleClaims_RoleId">
+    <index id="536" parent="519" name="IX_AspNetRoleClaims_RoleId">
       <ColNames>RoleId</ColNames>
-      <ObjectId>17440</ObjectId>
-      <StateNumber>865</StateNumber>
+      <ObjectId>17582</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="539" parent="520" name="PK_AspNetRoleClaims">
-      <ObjectId>17348</ObjectId>
+    <key id="537" parent="519" name="PK_AspNetRoleClaims">
+      <ObjectId>17486</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17347</UnderlyingIndexId>
+      <StateNumber>878</StateNumber>
+      <UnderlyingIndexId>17485</UnderlyingIndexId>
     </key>
-    <column id="540" parent="521" name="Id">
+    <column id="538" parent="520" name="Id">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="541" parent="521" name="Name">
+    <column id="539" parent="520" name="Name">
       <Position>2</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>varchar(256)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="542" parent="521" name="NormalizedName">
+    <column id="540" parent="520" name="NormalizedName">
       <Position>3</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>varchar(256)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="543" parent="521" name="ConcurrencyStamp">
+    <column id="541" parent="520" name="ConcurrencyStamp">
       <Position>4</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <index id="544" parent="521" name="PK_AspNetRoles">
+    <index id="542" parent="520" name="PK_AspNetRoles">
       <ColNames>Id</ColNames>
-      <ObjectId>17316</ObjectId>
+      <ObjectId>17462</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <index id="545" parent="521" name="RoleNameIndex">
+    <index id="543" parent="520" name="RoleNameIndex">
       <ColNames>NormalizedName</ColNames>
-      <ObjectId>17441</ObjectId>
-      <StateNumber>865</StateNumber>
+      <ObjectId>17583</ObjectId>
+      <StateNumber>878</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="546" parent="521" name="PK_AspNetRoles">
-      <ObjectId>17317</ObjectId>
+    <key id="544" parent="520" name="PK_AspNetRoles">
+      <ObjectId>17463</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17316</UnderlyingIndexId>
+      <StateNumber>878</StateNumber>
+      <UnderlyingIndexId>17462</UnderlyingIndexId>
     </key>
-    <column id="547" parent="522" name="Id">
+    <column id="545" parent="521" name="Id">
       <IdentityKind>by-default</IdentityKind>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>integer|0s</StoredType>
-      <SequenceId>17354</SequenceId>
+      <SequenceId>17492</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="548" parent="522" name="UserId">
+    <column id="546" parent="521" name="UserId">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="549" parent="522" name="ClaimType">
+    <column id="547" parent="521" name="ClaimType">
       <Position>3</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="550" parent="522" name="ClaimValue">
+    <column id="548" parent="521" name="ClaimValue">
       <Position>4</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <foreign-key id="551" parent="522" name="FK_AspNetUserClaims_AspNetUsers_UserId">
+    <foreign-key id="549" parent="521" name="FK_AspNetUserClaims_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
-      <ObjectId>17362</ObjectId>
+      <ObjectId>17500</ObjectId>
       <OnDelete>cascade</OnDelete>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17318</RefTableId>
+      <RefTableId>17464</RefTableId>
     </foreign-key>
-    <index id="552" parent="522" name="PK_AspNetUserClaims">
+    <index id="550" parent="521" name="PK_AspNetUserClaims">
       <ColNames>Id</ColNames>
-      <ObjectId>17360</ObjectId>
+      <ObjectId>17498</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="553" parent="522" name="IX_AspNetUserClaims_UserId">
+    <index id="551" parent="521" name="IX_AspNetUserClaims_UserId">
       <ColNames>UserId</ColNames>
-      <ObjectId>17442</ObjectId>
-      <StateNumber>865</StateNumber>
+      <ObjectId>17584</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="554" parent="522" name="PK_AspNetUserClaims">
-      <ObjectId>17361</ObjectId>
+    <key id="552" parent="521" name="PK_AspNetUserClaims">
+      <ObjectId>17499</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17360</UnderlyingIndexId>
+      <StateNumber>878</StateNumber>
+      <UnderlyingIndexId>17498</UnderlyingIndexId>
     </key>
-    <column id="555" parent="523" name="LoginProvider">
+    <column id="553" parent="522" name="LoginProvider">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="556" parent="523" name="ProviderKey">
+    <column id="554" parent="522" name="ProviderKey">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="557" parent="523" name="ProviderDisplayName">
+    <column id="555" parent="522" name="ProviderDisplayName">
       <Position>3</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="558" parent="523" name="UserId">
+    <column id="556" parent="522" name="UserId">
       <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <foreign-key id="559" parent="523" name="FK_AspNetUserLogins_AspNetUsers_UserId">
+    <foreign-key id="557" parent="522" name="FK_AspNetUserLogins_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
-      <ObjectId>17374</ObjectId>
+      <ObjectId>17512</ObjectId>
       <OnDelete>cascade</OnDelete>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17318</RefTableId>
+      <RefTableId>17464</RefTableId>
     </foreign-key>
-    <index id="560" parent="523" name="PK_AspNetUserLogins">
+    <index id="558" parent="522" name="PK_AspNetUserLogins">
       <ColNames>LoginProvider
 ProviderKey</ColNames>
-      <ObjectId>17372</ObjectId>
+      <ObjectId>17510</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationIds>100
@@ -7965,57 +7951,57 @@ default</CollationNames>
       <CollationParentNames>pg_catalog
 pg_catalog</CollationParentNames>
     </index>
-    <index id="561" parent="523" name="IX_AspNetUserLogins_UserId">
+    <index id="559" parent="522" name="IX_AspNetUserLogins_UserId">
       <ColNames>UserId</ColNames>
-      <ObjectId>17443</ObjectId>
-      <StateNumber>865</StateNumber>
+      <ObjectId>17585</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="562" parent="523" name="PK_AspNetUserLogins">
-      <ObjectId>17373</ObjectId>
+    <key id="560" parent="522" name="PK_AspNetUserLogins">
+      <ObjectId>17511</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17372</UnderlyingIndexId>
+      <StateNumber>878</StateNumber>
+      <UnderlyingIndexId>17510</UnderlyingIndexId>
     </key>
-    <column id="563" parent="524" name="UserId">
+    <column id="561" parent="523" name="UserId">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="564" parent="524" name="RoleId">
+    <column id="562" parent="523" name="RoleId">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <foreign-key id="565" parent="524" name="FK_AspNetUserRoles_AspNetUsers_UserId">
+    <foreign-key id="563" parent="523" name="FK_AspNetUserRoles_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
-      <ObjectId>17391</ObjectId>
+      <ObjectId>17529</ObjectId>
       <OnDelete>cascade</OnDelete>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17318</RefTableId>
+      <RefTableId>17464</RefTableId>
     </foreign-key>
-    <foreign-key id="566" parent="524" name="FK_AspNetUserRoles_AspNetRoles_RoleId">
+    <foreign-key id="564" parent="523" name="FK_AspNetUserRoles_AspNetRoles_RoleId">
       <ColNames>RoleId</ColNames>
-      <ObjectId>17386</ObjectId>
+      <ObjectId>17524</ObjectId>
       <OnDelete>cascade</OnDelete>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17311</RefTableId>
+      <RefTableId>17457</RefTableId>
     </foreign-key>
-    <index id="567" parent="524" name="PK_AspNetUserRoles">
+    <index id="565" parent="523" name="PK_AspNetUserRoles">
       <ColNames>UserId
 RoleId</ColNames>
-      <ObjectId>17384</ObjectId>
+      <ObjectId>17522</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationIds>100
@@ -8025,63 +8011,63 @@ default</CollationNames>
       <CollationParentNames>pg_catalog
 pg_catalog</CollationParentNames>
     </index>
-    <index id="568" parent="524" name="IX_AspNetUserRoles_RoleId">
+    <index id="566" parent="523" name="IX_AspNetUserRoles_RoleId">
       <ColNames>RoleId</ColNames>
-      <ObjectId>17444</ObjectId>
-      <StateNumber>865</StateNumber>
+      <ObjectId>17586</ObjectId>
+      <StateNumber>878</StateNumber>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="569" parent="524" name="PK_AspNetUserRoles">
-      <ObjectId>17385</ObjectId>
+    <key id="567" parent="523" name="PK_AspNetUserRoles">
+      <ObjectId>17523</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17384</UnderlyingIndexId>
+      <StateNumber>878</StateNumber>
+      <UnderlyingIndexId>17522</UnderlyingIndexId>
     </key>
-    <column id="570" parent="525" name="UserId">
+    <column id="568" parent="524" name="UserId">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="571" parent="525" name="LoginProvider">
+    <column id="569" parent="524" name="LoginProvider">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="572" parent="525" name="Name">
+    <column id="570" parent="524" name="Name">
       <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="573" parent="525" name="Value">
+    <column id="571" parent="524" name="Value">
       <Position>4</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <foreign-key id="574" parent="525" name="FK_AspNetUserTokens_AspNetUsers_UserId">
+    <foreign-key id="572" parent="524" name="FK_AspNetUserTokens_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
-      <ObjectId>17403</ObjectId>
+      <ObjectId>17541</ObjectId>
       <OnDelete>cascade</OnDelete>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17318</RefTableId>
+      <RefTableId>17464</RefTableId>
     </foreign-key>
-    <index id="575" parent="525" name="PK_AspNetUserTokens">
+    <index id="573" parent="524" name="PK_AspNetUserTokens">
       <ColNames>UserId
 LoginProvider
 Name</ColNames>
-      <ObjectId>17401</ObjectId>
+      <ObjectId>17539</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default
@@ -8094,467 +8080,361 @@ pg_catalog</CollationParentNames>
 100
 100</CollationIds>
     </index>
-    <key id="576" parent="525" name="PK_AspNetUserTokens">
-      <ObjectId>17402</ObjectId>
+    <key id="574" parent="524" name="PK_AspNetUserTokens">
+      <ObjectId>17540</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17401</UnderlyingIndexId>
+      <StateNumber>878</StateNumber>
+      <UnderlyingIndexId>17539</UnderlyingIndexId>
     </key>
-    <column id="577" parent="526" name="Id">
+    <column id="575" parent="525" name="Id">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="578" parent="526" name="UserName">
-      <Position>2</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>varchar(256)|0s</StoredType>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="579" parent="526" name="NormalizedUserName">
-      <Position>3</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>varchar(256)|0s</StoredType>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="580" parent="526" name="Email">
-      <Position>4</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>varchar(256)|0s</StoredType>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="581" parent="526" name="NormalizedEmail">
-      <Position>5</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>varchar(256)|0s</StoredType>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="582" parent="526" name="EmailConfirmed">
-      <NotNull>1</NotNull>
-      <Position>6</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>boolean|0s</StoredType>
-      <TypeId>16</TypeId>
-    </column>
-    <column id="583" parent="526" name="PasswordHash">
-      <Position>7</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>text|0s</StoredType>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="584" parent="526" name="SecurityStamp">
-      <Position>8</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>text|0s</StoredType>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="585" parent="526" name="ConcurrencyStamp">
-      <Position>9</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>text|0s</StoredType>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="586" parent="526" name="PhoneNumber">
-      <Position>10</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>text|0s</StoredType>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="587" parent="526" name="PhoneNumberConfirmed">
-      <NotNull>1</NotNull>
-      <Position>11</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>boolean|0s</StoredType>
-      <TypeId>16</TypeId>
-    </column>
-    <column id="588" parent="526" name="TwoFactorEnabled">
-      <NotNull>1</NotNull>
-      <Position>12</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>boolean|0s</StoredType>
-      <TypeId>16</TypeId>
-    </column>
-    <column id="589" parent="526" name="LockoutEnd">
-      <Position>13</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>timestamp with time zone|0s</StoredType>
-      <TypeId>1184</TypeId>
-    </column>
-    <column id="590" parent="526" name="LockoutEnabled">
-      <NotNull>1</NotNull>
-      <Position>14</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>boolean|0s</StoredType>
-      <TypeId>16</TypeId>
-    </column>
-    <column id="591" parent="526" name="AccessFailedCount">
-      <NotNull>1</NotNull>
-      <Position>15</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <TypeId>23</TypeId>
-    </column>
-    <index id="592" parent="526" name="PK_AspNetUsers">
-      <ColNames>Id</ColNames>
-      <ObjectId>17323</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-      <CollationNames>default</CollationNames>
-      <CollationIds>100</CollationIds>
-      <CollationParentNames>pg_catalog</CollationParentNames>
-    </index>
-    <index id="593" parent="526" name="UserNameIndex">
-      <ColNames>NormalizedUserName</ColNames>
-      <ObjectId>17446</ObjectId>
-      <StateNumber>865</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-      <CollationNames>default</CollationNames>
-      <CollationIds>100</CollationIds>
-      <CollationParentNames>pg_catalog</CollationParentNames>
-    </index>
-    <index id="594" parent="526" name="EmailIndex">
-      <ColNames>NormalizedEmail</ColNames>
-      <ObjectId>17445</ObjectId>
-      <StateNumber>865</StateNumber>
-      <AccessMethodId>403</AccessMethodId>
-      <CollationNames>default</CollationNames>
-      <CollationIds>100</CollationIds>
-      <CollationParentNames>pg_catalog</CollationParentNames>
-    </index>
-    <key id="595" parent="526" name="PK_AspNetUsers">
-      <ObjectId>17324</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17323</UnderlyingIndexId>
-    </key>
-    <column id="596" parent="527" name="Id">
-      <IdentityKind>by-default</IdentityKind>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <SequenceId>17408</SequenceId>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="597" parent="527" name="StudentId">
+    <column id="576" parent="525" name="FullName">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="598" parent="527" name="ProjectId">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <TypeId>23</TypeId>
-    </column>
-    <foreign-key id="599" parent="527" name="FK_ProjectStudents_User_StudentId">
-      <ColNames>StudentId</ColNames>
-      <ObjectId>17419</ObjectId>
-      <OnDelete>cascade</OnDelete>
-      <StateNumber>865</StateNumber>
-      <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17334</RefTableId>
-    </foreign-key>
-    <foreign-key id="600" parent="527" name="FK_ProjectStudents_Projects_ProjectId">
-      <ColNames>ProjectId</ColNames>
-      <ObjectId>17414</ObjectId>
-      <OnDelete>cascade</OnDelete>
-      <StateNumber>865</StateNumber>
-      <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17326</RefTableId>
-    </foreign-key>
-    <index id="601" parent="527" name="PK_ProjectStudents">
-      <ColNames>Id</ColNames>
-      <ObjectId>17412</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <index id="602" parent="527" name="IX_ProjectStudents_StudentId">
-      <ColNames>StudentId</ColNames>
-      <ObjectId>17448</ObjectId>
-      <StateNumber>865</StateNumber>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <index id="603" parent="527" name="IX_ProjectStudents_ProjectId">
-      <ColNames>ProjectId</ColNames>
-      <ObjectId>17447</ObjectId>
-      <StateNumber>865</StateNumber>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="604" parent="527" name="PK_ProjectStudents">
-      <ObjectId>17413</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17412</UnderlyingIndexId>
-    </key>
-    <column id="605" parent="528" name="Id">
-      <IdentityKind>by-default</IdentityKind>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <SequenceId>17325</SequenceId>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="606" parent="528" name="Name">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="607" parent="528" name="Details">
+    <column id="577" parent="525" name="Discriminator">
       <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>text|0s</StoredType>
-      <TypeId>25</TypeId>
-    </column>
-    <index id="608" parent="528" name="PK_Projects">
-      <ColNames>Id</ColNames>
-      <ObjectId>17331</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="609" parent="528" name="PK_Projects">
-      <ObjectId>17332</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17331</UnderlyingIndexId>
-    </key>
-    <column id="610" parent="529" name="Id">
-      <IdentityKind>by-default</IdentityKind>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <SequenceId>17424</SequenceId>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="611" parent="529" name="ProjectId">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="612" parent="529" name="SupervisorId">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <TypeId>23</TypeId>
-    </column>
-    <foreign-key id="613" parent="529" name="FK_SupervisorProjects_Projects_ProjectId">
-      <ColNames>ProjectId</ColNames>
-      <ObjectId>17430</ObjectId>
-      <OnDelete>cascade</OnDelete>
-      <StateNumber>865</StateNumber>
-      <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17326</RefTableId>
-    </foreign-key>
-    <foreign-key id="614" parent="529" name="FK_SupervisorProjects_User_SupervisorId">
-      <ColNames>SupervisorId</ColNames>
-      <ObjectId>17435</ObjectId>
-      <OnDelete>cascade</OnDelete>
-      <StateNumber>865</StateNumber>
-      <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17334</RefTableId>
-    </foreign-key>
-    <index id="615" parent="529" name="PK_SupervisorProjects">
-      <ColNames>Id</ColNames>
-      <ObjectId>17428</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <index id="616" parent="529" name="IX_SupervisorProjects_ProjectId">
-      <ColNames>ProjectId</ColNames>
-      <ObjectId>17449</ObjectId>
-      <StateNumber>865</StateNumber>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <index id="617" parent="529" name="IX_SupervisorProjects_SupervisorId">
-      <ColNames>SupervisorId</ColNames>
-      <ObjectId>17450</ObjectId>
-      <StateNumber>865</StateNumber>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="618" parent="529" name="PK_SupervisorProjects">
-      <ObjectId>17429</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17428</UnderlyingIndexId>
-    </key>
-    <column id="619" parent="530" name="Id">
-      <IdentityKind>by-default</IdentityKind>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <SequenceId>17333</SequenceId>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="620" parent="530" name="FullName">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>text|0s</StoredType>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="621" parent="530" name="Discriminator">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>varchar(13)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="622" parent="530" name="UserName">
+    <column id="578" parent="525" name="UserName">
       <Position>4</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>text|0s</StoredType>
-      <TypeId>25</TypeId>
+      <StateNumber>878</StateNumber>
+      <StoredType>varchar(256)|0s</StoredType>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="623" parent="530" name="NormalizedUserName">
+    <column id="579" parent="525" name="NormalizedUserName">
       <Position>5</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>text|0s</StoredType>
-      <TypeId>25</TypeId>
+      <StateNumber>878</StateNumber>
+      <StoredType>varchar(256)|0s</StoredType>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="624" parent="530" name="Email">
+    <column id="580" parent="525" name="Email">
       <Position>6</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>text|0s</StoredType>
-      <TypeId>25</TypeId>
+      <StateNumber>878</StateNumber>
+      <StoredType>varchar(256)|0s</StoredType>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="625" parent="530" name="NormalizedEmail">
+    <column id="581" parent="525" name="NormalizedEmail">
       <Position>7</Position>
-      <StateNumber>865</StateNumber>
-      <StoredType>text|0s</StoredType>
-      <TypeId>25</TypeId>
+      <StateNumber>878</StateNumber>
+      <StoredType>varchar(256)|0s</StoredType>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="626" parent="530" name="EmailConfirmed">
+    <column id="582" parent="525" name="EmailConfirmed">
       <NotNull>1</NotNull>
       <Position>8</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
-    <column id="627" parent="530" name="PasswordHash">
+    <column id="583" parent="525" name="PasswordHash">
       <Position>9</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="628" parent="530" name="SecurityStamp">
+    <column id="584" parent="525" name="SecurityStamp">
       <Position>10</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="629" parent="530" name="ConcurrencyStamp">
+    <column id="585" parent="525" name="ConcurrencyStamp">
       <Position>11</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="630" parent="530" name="PhoneNumber">
+    <column id="586" parent="525" name="PhoneNumber">
       <Position>12</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="631" parent="530" name="PhoneNumberConfirmed">
+    <column id="587" parent="525" name="PhoneNumberConfirmed">
       <NotNull>1</NotNull>
       <Position>13</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
-    <column id="632" parent="530" name="TwoFactorEnabled">
+    <column id="588" parent="525" name="TwoFactorEnabled">
       <NotNull>1</NotNull>
       <Position>14</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
-    <column id="633" parent="530" name="LockoutEnd">
+    <column id="589" parent="525" name="LockoutEnd">
       <Position>15</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
-    <column id="634" parent="530" name="LockoutEnabled">
+    <column id="590" parent="525" name="LockoutEnabled">
       <NotNull>1</NotNull>
       <Position>16</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
-    <column id="635" parent="530" name="AccessFailedCount">
+    <column id="591" parent="525" name="AccessFailedCount">
       <NotNull>1</NotNull>
       <Position>17</Position>
-      <StateNumber>865</StateNumber>
+      <StateNumber>878</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <index id="636" parent="530" name="PK_User">
+    <index id="592" parent="525" name="PK_AspNetUsers">
       <ColNames>Id</ColNames>
-      <ObjectId>17339</ObjectId>
+      <ObjectId>17469</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="637" parent="530" name="PK_User">
-      <ObjectId>17340</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>865</StateNumber>
-      <UnderlyingIndexId>17339</UnderlyingIndexId>
-    </key>
-    <column id="638" parent="531" name="MigrationId">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>864</StateNumber>
-      <StoredType>varchar(150)|0s</StoredType>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="639" parent="531" name="ProductVersion">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StateNumber>864</StateNumber>
-      <StoredType>varchar(32)|0s</StoredType>
-      <TypeId>1043</TypeId>
-    </column>
-    <index id="640" parent="531" name="PK___EFMigrationsHistory">
-      <ColNames>MigrationId</ColNames>
-      <ObjectId>17309</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>864</StateNumber>
+      <StateNumber>878</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="641" parent="531" name="PK___EFMigrationsHistory">
-      <ObjectId>17310</ObjectId>
+    <index id="593" parent="525" name="UserNameIndex">
+      <ColNames>NormalizedUserName</ColNames>
+      <ObjectId>17588</ObjectId>
+      <StateNumber>878</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <index id="594" parent="525" name="EmailIndex">
+      <ColNames>NormalizedEmail</ColNames>
+      <ObjectId>17587</ObjectId>
+      <StateNumber>878</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="595" parent="525" name="PK_AspNetUsers">
+      <ObjectId>17470</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>864</StateNumber>
-      <UnderlyingIndexId>17309</UnderlyingIndexId>
+      <StateNumber>878</StateNumber>
+      <UnderlyingIndexId>17469</UnderlyingIndexId>
+    </key>
+    <column id="596" parent="526" name="Id">
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>878</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <SequenceId>17546</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="597" parent="526" name="StudentId">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>878</StateNumber>
+      <StoredType>text|0s</StoredType>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="598" parent="526" name="ProjectId">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>878</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="599" parent="526" name="FK_ProjectStudents_AspNetUsers_StudentId">
+      <ColNames>StudentId</ColNames>
+      <ObjectId>17554</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <StateNumber>878</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>17464</RefTableId>
+    </foreign-key>
+    <foreign-key id="600" parent="526" name="FK_ProjectStudents_Projects_ProjectId">
+      <ColNames>ProjectId</ColNames>
+      <ObjectId>17559</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <StateNumber>878</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>17472</RefTableId>
+    </foreign-key>
+    <index id="601" parent="526" name="PK_ProjectStudents">
+      <ColNames>Id</ColNames>
+      <ObjectId>17552</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>878</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="602" parent="526" name="IX_ProjectStudents_StudentId">
+      <ColNames>StudentId</ColNames>
+      <ObjectId>17590</ObjectId>
+      <StateNumber>878</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <index id="603" parent="526" name="IX_ProjectStudents_ProjectId">
+      <ColNames>ProjectId</ColNames>
+      <ObjectId>17589</ObjectId>
+      <StateNumber>878</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="604" parent="526" name="PK_ProjectStudents">
+      <ObjectId>17553</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>878</StateNumber>
+      <UnderlyingIndexId>17552</UnderlyingIndexId>
+    </key>
+    <column id="605" parent="527" name="Id">
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>878</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <SequenceId>17471</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="606" parent="527" name="Name">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>878</StateNumber>
+      <StoredType>text|0s</StoredType>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="607" parent="527" name="Details">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>878</StateNumber>
+      <StoredType>text|0s</StoredType>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="608" parent="527" name="PK_Projects">
+      <ColNames>Id</ColNames>
+      <ObjectId>17477</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>878</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="609" parent="527" name="PK_Projects">
+      <ObjectId>17478</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>878</StateNumber>
+      <UnderlyingIndexId>17477</UnderlyingIndexId>
+    </key>
+    <column id="610" parent="528" name="Id">
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>878</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <SequenceId>17564</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="611" parent="528" name="ProjectId">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>878</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="612" parent="528" name="SupervisorId">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>878</StateNumber>
+      <StoredType>text|0s</StoredType>
+      <TypeId>25</TypeId>
+    </column>
+    <foreign-key id="613" parent="528" name="FK_SupervisorProjects_Projects_ProjectId">
+      <ColNames>ProjectId</ColNames>
+      <ObjectId>17577</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <StateNumber>878</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>17472</RefTableId>
+    </foreign-key>
+    <foreign-key id="614" parent="528" name="FK_SupervisorProjects_AspNetUsers_SupervisorId">
+      <ColNames>SupervisorId</ColNames>
+      <ObjectId>17572</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <StateNumber>878</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>17464</RefTableId>
+    </foreign-key>
+    <index id="615" parent="528" name="PK_SupervisorProjects">
+      <ColNames>Id</ColNames>
+      <ObjectId>17570</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>878</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="616" parent="528" name="IX_SupervisorProjects_ProjectId">
+      <ColNames>ProjectId</ColNames>
+      <ObjectId>17591</ObjectId>
+      <StateNumber>878</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="617" parent="528" name="IX_SupervisorProjects_SupervisorId">
+      <ColNames>SupervisorId</ColNames>
+      <ObjectId>17592</ObjectId>
+      <StateNumber>878</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="618" parent="528" name="PK_SupervisorProjects">
+      <ObjectId>17571</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>878</StateNumber>
+      <UnderlyingIndexId>17570</UnderlyingIndexId>
+    </key>
+    <column id="619" parent="529" name="MigrationId">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>875</StateNumber>
+      <StoredType>varchar(150)|0s</StoredType>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="620" parent="529" name="ProductVersion">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>875</StateNumber>
+      <StoredType>varchar(32)|0s</StoredType>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="621" parent="529" name="PK___EFMigrationsHistory">
+      <ColNames>MigrationId</ColNames>
+      <ObjectId>17455</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>875</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="622" parent="529" name="PK___EFMigrationsHistory">
+      <ObjectId>17456</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>875</StateNumber>
+      <UnderlyingIndexId>17455</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>

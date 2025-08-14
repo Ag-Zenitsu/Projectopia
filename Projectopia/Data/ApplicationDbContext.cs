@@ -1,10 +1,11 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Projectopia.Models;
 
 namespace Projectopia.Data;
 
-public class ApplicationDbContext : IdentityDbContext
+public class ApplicationDbContext : IdentityDbContext<User,IdentityRole,string>
 {
     public DbSet<SupervisorProject> SupervisorProjects { get; set; }
     public DbSet<Project> Projects { get; set; }

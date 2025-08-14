@@ -9,7 +9,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bf05643-8ddd-4cea-af33-99de406bd265" name="Changes" comment="" />
+    <list default="true" id="9bf05643-8ddd-4cea-af33-99de406bd265" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/dataSources/7471708d-616d-417b-a6fb-687c0ec09243.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/dataSources/7471708d-616d-417b-a6fb-687c0ec09243.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/dataSources/7471708d-616d-417b-a6fb-687c0ec09243/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/dataSources/7471708d-616d-417b-a6fb-687c0ec09243/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/dataSources/7471708d-616d-417b-a6fb-687c0ec09243/storage_v2/_src_/database/projectopia.Uj0HyA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/dataSources/7471708d-616d-417b-a6fb-687c0ec09243/storage_v2/_src_/database/projectopia.Uj0HyA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Data/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Data/SeedData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Migrations/20250814150335_init.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Migrations/20250814150335_init.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Models/ProjectStudent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Models/ProjectStudent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Models/SupervisorProject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Models/SupervisorProject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/ref/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/ref/Projectopia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/refint/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/refint/Projectopia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Projectopia.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Projectopia.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Projectopia.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Projectopia.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +58,34 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ag-Zenitsu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ag-Zenitsu/Projectopia.git",
+    "accountId": "a51f3883-c007-47d9-ac81-129f493bbae7"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/115845ef68e64f289dfe84e09b4a920c1a8a0/65/39cd3def/IdentityDbContext`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/115845ef68e64f289dfe84e09b4a920c1a8a0/de/ba4f2b7c/IdentityDbContext`3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/92f5aaa39adf4e3da91c1549fa57542015908/67/f2109169/IdentityUser`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/92f5aaa39adf4e3da91c1549fa57542015908/74/260778a5/IdentityUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="313ARdNmWTCtoe4V5KKw9e1gieV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +95,7 @@
     ".NET Launch Settings Profile.Projectopia: IIS Express.executor": "Run",
     ".NET Launch Settings Profile.Projectopia: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,15 +165,27 @@
       <option name="presentableId" value="Default" />
       <updated>1754742379220</updated>
       <workItem from="1754742381770" duration="1375000" />
-      <workItem from="1755180534304" duration="3560000" />
+      <workItem from="1755180534304" duration="5109000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <option name="closed" value="true" />
+      <created>1755184589187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755184589187</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

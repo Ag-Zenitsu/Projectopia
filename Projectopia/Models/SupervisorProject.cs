@@ -7,6 +7,6 @@ public class SupervisorProject
     public int ProjectId { get; set; }
     public Project Project { get; set; }
     
-    public int SupervisorId { get; set; }
+    public string SupervisorId { get; set; }
     public Supervisor Supervisor { get; set; }
 }

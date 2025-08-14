@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kingh\\Desktop\\prosem1\\Projectopia\\Projectopia\\projectopia\\Projectopia.csproj": {}
+    "C:\\Users\\kingh\\Desktop\\prosem1\\Projectopia\\Projectopia\\Projectopia\\Projectopia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kingh\\Desktop\\prosem1\\Projectopia\\Projectopia\\projectopia\\Projectopia.csproj": {
+    "C:\\Users\\kingh\\Desktop\\prosem1\\Projectopia\\Projectopia\\Projectopia\\Projectopia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kingh\\Desktop\\prosem1\\Projectopia\\Projectopia\\projectopia\\Projectopia.csproj",
+        "projectUniqueName": "C:\\Users\\kingh\\Desktop\\prosem1\\Projectopia\\Projectopia\\Projectopia\\Projectopia.csproj",
         "projectName": "Projectopia",
-        "projectPath": "C:\\Users\\kingh\\Desktop\\prosem1\\Projectopia\\Projectopia\\projectopia\\Projectopia.csproj",
+        "projectPath": "C:\\Users\\kingh\\Desktop\\prosem1\\Projectopia\\Projectopia\\Projectopia\\Projectopia.csproj",
         "packagesPath": "C:\\Users\\kingh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kingh\\Desktop\\prosem1\\Projectopia\\Projectopia\\projectopia\\obj\\",
+        "outputPath": "C:\\Users\\kingh\\Desktop\\prosem1\\Projectopia\\Projectopia\\Projectopia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kingh\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -103,3 +103,4 @@ C:\Users\kingh\Desktop\prosem1\Projectopia\Projectopia\Projectopia\obj\Debug\net
 C:\Users\kingh\Desktop\prosem1\Projectopia\Projectopia\Projectopia\obj\Debug\net8.0\Projectopia.pdb
 C:\Users\kingh\Desktop\prosem1\Projectopia\Projectopia\Projectopia\obj\Debug\net8.0\Projectopia.genruntimeconfig.cache
 C:\Users\kingh\Desktop\prosem1\Projectopia\Projectopia\Projectopia\obj\Debug\net8.0\ref\Projectopia.dll
+C:\Users\kingh\Desktop\prosem1\Projectopia\Projectopia\Projectopia\obj\Debug\net8.0\Projectopia.sourcelink.json
