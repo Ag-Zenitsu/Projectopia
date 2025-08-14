@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projectopia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8456600b07eed51bc3f3085f7ff12921420fa9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d31ad618b77da364299251b781bf996d4e9d5f4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projectopia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projectopia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,3 +1,4 @@
+using System.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Projectopia.Data;
@@ -36,4 +37,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Account}/{action=Login}");
 
+await SeedData.SeedUsersAndRolesAsync(builder.Services.BuildServiceProvider());
 app.Run();
