@@ -9,21 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bf05643-8ddd-4cea-af33-99de406bd265" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/Data/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Data/SeedData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/ref/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/ref/Projectopia.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/refint/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/refint/Projectopia.dll" afterDir="false" />
-    </list>
+    <list default="true" id="9bf05643-8ddd-4cea-af33-99de406bd265" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,18 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ag-Zenitsu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ag-Zenitsu&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Ag-Zenitsu/Projectopia.git",
-    "accountId": "a51f3883-c007-47d9-ac81-129f493bbae7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ag-Zenitsu/Projectopia.git&quot;,
+    &quot;accountId&quot;: &quot;a51f3883-c007-47d9-ac81-129f493bbae7&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/115845ef68e64f289dfe84e09b4a920c1a8a0/65/39cd3def/IdentityDbContext`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/115845ef68e64f289dfe84e09b4a920c1a8a0/de/ba4f2b7c/IdentityDbContext`3.cs" root0="FORCE_HIGHLIGHTING" />
@@ -64,25 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Projectopia: IIS Express.executor": "Run",
-    ".NET Launch Settings Profile.Projectopia: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Projectopia: IIS Express.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.Projectopia: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Projectopia: http">
     <configuration name="Projectopia: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Projectopia/Projectopia.csproj" />
@@ -139,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754742379220</updated>
       <workItem from="1754742381770" duration="1375000" />
-      <workItem from="1755180534304" duration="6103000" />
+      <workItem from="1755180534304" duration="6578000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -157,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755185747777</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".">
+      <option name="closed" value="true" />
+      <created>1755187122627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755187122627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
