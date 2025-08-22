@@ -1,17 +1,92 @@
+@model IEnumerable<Projectopia.Models.Project>
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Projects";
+    var isAdmin = User.IsInRole("Admin");
+    var isSupervisor = User.IsInRole("Supervisor");
 }
 
-<!DOCTYPE html>
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Projects</h1>
+        @if (isAdmin || isSupervisor)
+        {
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Create New Project
+            </a>
+        }
+    </div>
 
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
-      
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">
+            <i class="fas fa-info-circle"></i> No projects found.
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var project in Model)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="card-title mb-0">@project.Name</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                @if (!string.IsNullOrEmpty(project.Details))
+                                {
+                                    @(project.Details.Length > 100 ? project.Details.Substring(0, 100) + "..." : project.Details)
+                                }
+                                else
+                                {
+                                    <span class="text-muted">No details available</span>
+                                }
+                            </p>
+                            
+                            @if (project.SupervisorProjects?.Any() == true)
+                            {
+                                <div class="mb-2">
+                                    <small class="text-muted">
+                                        <strong>Supervisors:</strong> 
+                                        @string.Join(", ", project.SupervisorProjects.Select(sp => sp.Supervisor.FullName))
+                                    </small>
+                                </div>
+                            }
+                            
+                            @if (project.ProjectStudents?.Any() == true)
+                            {
+                                <div class="mb-2">
+                                    <small class="text-muted">
+                                        <strong>Students:</strong> 
+                                        @string.Join(", ", project.ProjectStudents.Select(ps => ps.Student.FullName))
+                                    </small>
+                                </div>
+                            }
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <div class="btn-group w-100" role="group">
+                                <a asp-action="Details" asp-route-id="@project.Id" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-eye"></i> Details
+                                </a>
+                                @if (isAdmin || isSupervisor)
+                                {
+                                    <a asp-action="Edit" asp-route-id="@project.Id" class="btn btn-outline-warning btn-sm">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </a>
+                                }
+                                @if (isAdmin)
+                                {
+                                    <a asp-action="Delete" asp-route-id="@project.Id" class="btn btn-outline-danger btn-sm">
+                                        <i class="fas fa-trash"></i> Delete
+                                    </a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
 </div>
-</body>
-</html>

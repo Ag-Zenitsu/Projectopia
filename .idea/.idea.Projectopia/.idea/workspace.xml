@@ -9,7 +9,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bf05643-8ddd-4cea-af33-99de406bd265" name="Changes" comment="" />
+    <list default="true" id="9bf05643-8ddd-4cea-af33-99de406bd265" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Projectopia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/Views/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/bin/Debug/net8.0/Projectopia.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/Projectopia.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/ref/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/ref/Projectopia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/refint/Projectopia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projectopia/obj/Debug/net8.0/refint/Projectopia.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +69,7 @@
     &quot;.NET Launch Settings Profile.Projectopia: IIS Express.executor&quot;: &quot;Run&quot;,
     &quot;.NET Launch Settings Profile.Projectopia: http.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -126,6 +141,8 @@
       <updated>1754742379220</updated>
       <workItem from="1754742381770" duration="1375000" />
       <workItem from="1755180534304" duration="6578000" />
+      <workItem from="1755187586376" duration="1133000" />
+      <workItem from="1755776947523" duration="1836000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -151,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755187122627</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <option name="closed" value="true" />
+      <created>1755187599595</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755187599595</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

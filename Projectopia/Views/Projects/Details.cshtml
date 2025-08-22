@@ -1,17 +1,107 @@
+@model Projectopia.ViewModels.ProjectDetailsViewModel
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Project Details";
+    var isAdmin = User.IsInRole("Admin");
+    var isSupervisor = User.IsInRole("Supervisor");
 }
 
-<!DOCTYPE html>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2 class="mb-0">@Model.Name</h2>
+                        <div>
+                            @if (isAdmin || isSupervisor)
+                            {
+                                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning btn-sm me-2">
+                                    <i class="fas fa-edit"></i> Edit
+                                </a>
+                            }
+                            @if (isAdmin)
+                            {
+                                <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash"></i> Delete
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h5 class="text-primary">Project Details</h5>
+                            <p class="text-muted">
+                                @if (!string.IsNullOrEmpty(Model.Details))
+                                {
+                                    @Model.Details
+                                }
+                                else
+                                {
+                                    <span class="text-muted">No details available</span>
+                                }
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light">
+                                <div class="card-body">
+                                    <h6 class="card-title text-muted">Project Information</h6>
+                                    <p class="mb-1"><strong>ID:</strong> @Model.Id</p>
+                                    <p class="mb-1"><strong>Supervisors:</strong> @Model.Supervisors.Count</p>
+                                    <p class="mb-0"><strong>Students:</strong> @Model.Students.Count</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
-      
+                    @if (Model.Supervisors.Any())
+                    {
+                        <div class="mt-4">
+                            <h5 class="text-primary">Supervisors</h5>
+                            <div class="row">
+                                @foreach (var supervisor in Model.Supervisors)
+                                {
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="card-body py-2">
+                                                <h6 class="card-title mb-1">@supervisor.FullName</h6>
+                                                <small class="text-muted">@supervisor.Email</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+
+                    @if (Model.Students.Any())
+                    {
+                        <div class="mt-4">
+                            <h5 class="text-primary">Students</h5>
+                            <div class="row">
+                                @foreach (var student in Model.Students)
+                                {
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-success">
+                                            <div class="card-body py-2">
+                                                <h6 class="card-title mb-1">@student.FullName</h6>
+                                                <small class="text-muted">@student.Email</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="card-footer">
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left"></i> Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</body>
-</html>

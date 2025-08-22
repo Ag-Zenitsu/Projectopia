@@ -1,17 +1,78 @@
+@model Projectopia.ViewModels.ProjectViewModel
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Edit Project";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
-      
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-warning text-white">
+                    <h2 class="text-center mb-0">Edit Project</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        
+                        <div class="form-group mb-3">
+                            <label asp-for="Name" class="control-label"></label>
+                            <input asp-for="Name" class="form-control" placeholder="Enter project name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label asp-for="Details" class="control-label"></label>
+                            <textarea asp-for="Details" class="form-control" rows="4" placeholder="Enter project details"></textarea>
+                            <span asp-validation-for="Details" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label asp-for="SupervisorIds" class="control-label"></label>
+                            <select asp-for="SupervisorIds" class="form-select" multiple>
+                                @foreach (var supervisor in ViewBag.Supervisors)
+                                {
+                                    var isSelected = Model.SupervisorIds?.Contains(supervisor.Id) == true;
+                                    <option value="@supervisor.Id" selected="@isSelected">
+                                        @supervisor.FullName (@supervisor.Email)
+                                    </option>
+                                }
+                            </select>
+                            <small class="form-text text-muted">Hold Ctrl (or Cmd on Mac) to select multiple supervisors</small>
+                            <span asp-validation-for="SupervisorIds" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label asp-for="StudentIds" class="control-label"></label>
+                            <select asp-for="StudentIds" class="form-select" multiple>
+                                @foreach (var student in ViewBag.Students)
+                                {
+                                    var isSelected = Model.StudentIds?.Contains(student.Id) == true;
+                                    <option value="@student.Id" selected="@isSelected">
+                                        @student.FullName (@student.Email)
+                                    </option>
+                                }
+                            </select>
+                            <small class="form-text text-muted">Hold Ctrl (or Cmd on Mac) to select multiple students</small>
+                            <span asp-validation-for="StudentIds" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Back to List
+                            </a>
+                            <button type="submit" class="btn btn-warning">
+                                <i class="fas fa-save"></i> Save Changes
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</body>
-</html>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

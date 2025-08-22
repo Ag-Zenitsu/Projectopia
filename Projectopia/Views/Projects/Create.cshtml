@@ -1,18 +1,71 @@
-
+@model Projectopia.ViewModels.ProjectViewModel
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Create Project";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
-      
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="text-center mb-0">Create New Project</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        
+                        <div class="form-group mb-3">
+                            <label asp-for="Name" class="control-label"></label>
+                            <input asp-for="Name" class="form-control" placeholder="Enter project name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label asp-for="Details" class="control-label"></label>
+                            <textarea asp-for="Details" class="form-control" rows="4" placeholder="Enter project details"></textarea>
+                            <span asp-validation-for="Details" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label asp-for="SupervisorIds" class="control-label"></label>
+                            <select asp-for="SupervisorIds" class="form-select" multiple>
+                                @foreach (var supervisor in ViewBag.Supervisors)
+                                {
+                                    <option value="@supervisor.Id">@supervisor.FullName (@supervisor.Email)</option>
+                                }
+                            </select>
+                            <small class="form-text text-muted">Hold Ctrl (or Cmd on Mac) to select multiple supervisors</small>
+                            <span asp-validation-for="SupervisorIds" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label asp-for="StudentIds" class="control-label"></label>
+                            <select asp-for="StudentIds" class="form-select" multiple>
+                                @foreach (var student in ViewBag.Students)
+                                {
+                                    <option value="@student.Id">@student.FullName (@student.Email)</option>
+                                }
+                            </select>
+                            <small class="form-text text-muted">Hold Ctrl (or Cmd on Mac) to select multiple students</small>
+                            <span asp-validation-for="StudentIds" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Back to List
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save"></i> Create Project
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</body>
-</html>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
