@@ -1,0 +1,132 @@
+@model dynamic
+
+@{
+    ViewData["Title"] = "Student Dashboard";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1><i class="fas fa-user-graduate"></i> Student Dashboard</h1>
+        <div>
+            <a asp-action="MyProjects" class="btn btn-primary me-2">
+                <i class="fas fa-project-diagram"></i> My Projects
+            </a>
+            <a asp-action="Supervisors" class="btn btn-success">
+                <i class="fas fa-user-tie"></i> My Supervisors
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Total Projects
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.TotalProjects</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-project-diagram fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                Total Supervisors
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.TotalSupervisors</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-user-tie fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                Active Projects
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.TotalProjects</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-clipboard-check fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (Model.Projects?.Any() == true)
+    {
+        <div class="row">
+            <div class="col-12">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">My Projects</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            @foreach (var project in Model.Projects.Take(3))
+                            {
+                                <div class="col-md-4 mb-3">
+                                    <div class="card border-success h-100">
+                                        <div class="card-header bg-success text-white">
+                                            <h6 class="card-title mb-0">@project.Name</h6>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                @if (!string.IsNullOrEmpty(project.Details))
+                                                {
+                                                    @(project.Details.Length > 100 ? project.Details.Substring(0, 100) + "..." : project.Details)
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-muted">No details available</span>
+                                                }
+                                            </p>
+                                            <small class="text-muted">
+                                                <strong>Supervisors:</strong> @(project.SupervisorProjects?.Count ?? 0)
+                                            </small>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a asp-action="ProjectDetails" asp-route-id="@project.Id" class="btn btn-success btn-sm">
+                                                <i class="fas fa-eye"></i> View Details
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-info text-center">
+                    <i class="fas fa-info-circle"></i> You don't have any projects assigned yet.
+                </div>
+            </div>
+        </div>
+    }
+</div>
